@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #8a3b55;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #768aa5;
+}
+div{
+    display: flex;
+    margin: 15px;
+}
+div p{
+    margin: 12px;
+    padding: 20px 50px;
+    border-radius: 12px;
+    font-size: 20px;
+    color: white;
+}
+.buy{
+    background-color: #84a14a;
+}
+.sell{
+    background-color: #b9402a;
+}
+.s-div p{
+    background-color: sandybrown;
+}
+.btn{
+    padding: 15px 40px;
+    color: #fff;
+    background-color: #1f6e68;
+    font-size: 22px;
+    border-radius: 14px;
+    cursor: pointer;
+}
